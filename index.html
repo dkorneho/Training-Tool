@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TRAINING TOOL</title>
 	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/fontawesome.min.css">
 </head>
 <body>
@@ -13,24 +14,24 @@
 		<div class="logo">TEAM OF EXPERTS</div>
 			<nav class="">
 				<ul>
-					<li><a href="#" class="active">HOME</a></li>
+					<li><a href="#">HOME</a></li>
 					<li><a href="#">ABOUT</a></li>
-					<li class="sub-menu"><a href="#">SERVICES</a></li>
-						<!--<ul>
+					<li class="sub-menu"><a href="#">SERVICES</a>
+						<ul>
 							<li><a href="#">SUB1</a></li>
 							<li><a href="#">SUB2</a></li>
 							<li><a href="#">SUB3</a></li>
 							<li><a href="#">SUB4</a></li>
-						</ul>-->
+						</ul>
 					</li><!--services-->
 					<li><a href="#">TEAM</a></li>
 					<li class="sub-menu"><a href="#">PORTFOLIO</a>
-						<!--<ul>
+						<ul>
 							<li><a href="#">SUB1</a></li>
 							<li><a href="#">SUB2</a></li>
 							<li><a href="#">SUB3</a></li>
 							<li><a href="#">SUB4</a></li>
-						</ul>-->			 
+						</ul>	 
 					</li><!--portfolio-->
 					<li><a href="#">CONTACT</a></li>
 				</ul>
@@ -38,7 +39,7 @@
 
 			<div class="menu-toggle"><img class="mnu" src="IMG/bars-solid.svg" alt="" height="30px" aria-hidden="true"></div>
 	</header><!--HEADER-->
-
+	
 	
 	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 	<script type="text/javascript">
@@ -47,9 +48,12 @@
 			$('.menu-toggle').click(function(){
 				$('nav').toggleClass('active')
 			})
+			$('ul li').click(function(){
+				$(this).siblings().removeClass('active');
+				$(this).toggleClass('active');
+			})
 		})
 
 	</script>
-	<footer>TEX</footer>
 </body>
 </html>
