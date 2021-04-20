@@ -51,7 +51,7 @@ header nav ul li.sub-menu:before{
 	right: 5px;
 }
 
-header nav ul li.active.sub-menu::before{
+header nav ul li.active.sub-menu:before{
 	content: url(../IMG/angle-up-solid.svg);
 }
 
