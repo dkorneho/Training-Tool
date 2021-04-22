@@ -1,8 +1,8 @@
-body{
+.index{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url('../IMG/cq638F.jpg'); 
+	background: url(../IMG/cq638F.jpg); 
 	background-attachment: fixed;
 	background-position: center;
 }
@@ -51,7 +51,7 @@ header nav ul li.sub-menu:before{
 	right: 5px;
 }
 
-header nav ul li.active.sub-menu:before{
+header nav ul li.active.sub-menu::before{
 	content: url(../IMG/angle-up-solid.svg);
 }
 
@@ -94,7 +94,7 @@ header nav ul li a.active{
 	display: none;
 }
 
-@media (max-width: 991px){
+@media screen and (max-width: 991px){
 	body{
 		background-position-x: 10px;
 	}
