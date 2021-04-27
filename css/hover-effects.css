@@ -179,7 +179,11 @@ section {
 	.codrops-icon span {
 		display: none;
 	}
+	figcaption p{
+		font-size: 20%;
+	}
 }
+
 @font-face {
 	font-weight: normal;
 	font-style: normal;
