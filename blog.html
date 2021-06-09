@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>Favison SAAS</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--JQuery Library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Popper JS-->
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!--Compiled JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -24,7 +33,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo/tex-logo.png" alt="" style="height: 4.5rem;"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -34,32 +43,27 @@
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="feature.html">Features</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="price.html">Price</a></li>     
+                            <li class="nav-item"><a href="feature.html" class="nav-link">Feature/Benefit</a></li>
+                            <li class="nav-item"><a class="nav-link" href="price.html">Content</a></li>     
                             <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plans</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="feature.html">Features</a></li> 
-                                    <li class="nav-item"><a class="nav-link" href="price.html">Price</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="element.html">Element</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="feature.html">Magenta Voice</a></li> 
+                                    <li class="nav-item"><a class="nav-link" href="price.html">Magenta MAX</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="element.html">Magenta Military</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="element.html">Mas Planes +</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Systems</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Atlas/Samson</a></li>
                                     <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
                                 </ul>
-                            </li> 
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">About Us </a></li>
                         </ul>
                     </div>
-                    <div class="right-button">
-                        <ul>
-                            <li class="shop-icon"><a href="#"><i class="ti-shopping-cart-full"></i><span>0</span></a></li>
-                            <li><a class="sign_up" href="">Sign Up</a></li>
-                        </ul>
-                    </div> 
                 </div>
             </nav>
         </div>
@@ -83,320 +87,102 @@
 
 
   <!--================Blog Area =================-->
-  <section class="blog_area area-padding">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 mb-5 mb-lg-0">
-                  <div class="blog_left_sidebar">
-                      <article class="blog_item">
-                        <div class="blog_item_img">
-                          <img class="card-img rounded-0" src="img/blog/main-blog/m-blog-1.jpg" alt="">
-                          <a href="#" class="blog_item_date">
-                            <h3>15</h3>
-                            <p>Jan</p>
-                          </a>
-                        </div>
-                        
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
-                            </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                            <ul class="blog-info-link">
-                              <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
-                              <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                            </ul>
-                        </div>
-                      </article>
-                      
-                      <article class="blog_item">
-                        <div class="blog_item_img">
-                          <img class="card-img rounded-0" src="img/blog/main-blog/m-blog-2.jpg" alt="">
-                          <a href="#" class="blog_item_date">
-                            <h3>15</h3>
-                            <p>Jan</p>
-                          </a>
-                        </div>
-                        
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
-                            </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                            <ul class="blog-info-link">
-                              <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
-                              <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                            </ul>
-                        </div>
-                      </article>
+  <main>
+    <div class="container p-5">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item mr-1 active">
+                <a href="#section-one" class="nav-link bg-primary text-white" data-toggle="tab">Section One</a>
+            </li>
+            <li class="nav-item ml-1">
+                <a href="#section-two" class="nav-link bg-info text-white" data-toggle="tab">Section Two</a>
+            </li>
+        </ul>
+        <div class="tab-content shadow-lg">
+            <div id="section-one" class="tab-pane fade show bg-white text-dark active">
+                <div class="row">
+                    <div class="col-md-3"><!--OPTIONS PANE-->
+                        <ul class="nav nav-tabs flex-column">
+                            <li><a href="#heading-one" class="nav-link bg-primary text-white active" data-toggle="tab">Verify an Account</a></li>
+                            <li><a href="#heading-two" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit Billing Adress</a></li>
+                            <li><a href="#heading-three" class="nav-link bg-primary text-white" data-toggle="tab">Heading three</a></li>
+                        </ul>
+                    </div><!--OPTIONS PANE S1-->
 
-                      <article class="blog_item">
-                        <div class="blog_item_img">
-                          <img class="card-img rounded-0" src="img/blog/main-blog/m-blog-3.jpg" alt="">
-                          <a href="#" class="blog_item_date">
-                            <h3>15</h3>
-                            <p>Jan</p>
-                          </a>
-                        </div>
-                        
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
-                            </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                            <ul class="blog-info-link">
-                              <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
-                              <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                            </ul>
-                        </div>
-                      </article>
-
-                      <article class="blog_item">
-                        <div class="blog_item_img">
-                          <img class="card-img rounded-0" src="img/blog/main-blog/m-blog-4.jpg" alt="">
-                          <a href="#" class="blog_item_date">
-                            <h3>15</h3>
-                            <p>Jan</p>
-                          </a>
-                        </div>
-                        
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
-                            </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                            <ul class="blog-info-link">
-                              <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
-                              <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                            </ul>
-                        </div>
-                      </article>
-
-                      <article class="blog_item">
-                        <div class="blog_item_img">
-                          <img class="card-img rounded-0" src="img/blog/main-blog/m-blog-5.jpg" alt="">
-                          <a href="#" class="blog_item_date">
-                            <h3>15</h3>
-                            <p>Jan</p>
-                          </a>
-                        </div>
-                        
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
-                                <h2>Google inks pact for new 35-storey office</h2>
-                            </a>
-                            <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                            <ul class="blog-info-link">
-                              <li><a href="#"><i class="far fa-user"></i> Travel, Lifestyle</a></li>
-                              <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
-                            </ul>
-                        </div>
-                      </article>
-                      
-
-
-                      <nav class="blog-pagination justify-content-center d-flex">
-                          <ul class="pagination">
-                              <li class="page-item">
-                                  <a href="#" class="page-link" aria-label="Previous">
-                                      <i class="ti-angle-left"></i>
-                                  </a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link">1</a>
-                              </li>
-                              <li class="page-item active">
-                                  <a href="#" class="page-link">2</a>
-                              </li>
-                              <li class="page-item">
-                                  <a href="#" class="page-link" aria-label="Next">
-                                      <i class="ti-angle-right"></i>
-                                  </a>
-                              </li>
-                          </ul>
-                      </nav>
-                  </div>
-              </div>
-              <div class="col-lg-4">
-                  <div class="blog_right_sidebar">
-                      <aside class="single_sidebar_widget search_widget">
-                          <form action="#">
-                            <div class="form-group">
-                              <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Search Keyword">
-                                <div class="input-group-append">
-                                  <button class="btn" type="button"><i class="ti-search"></i></button>
-                                </div>
-                              </div>
+                    <div class="col-md-9 w-50"><!--CONTENT PANE-->
+                        <div class="tab-content flex-center">
+                            <div class="tab-pane fade fs-3 show active" id="heading-one">
+                                <ul>
+                                  <li>Click Lookup from the left-side menu.</li>
+                                  <li>Select Mobile Number or Account Number in the left drop-down list.</li>
+                                  <li>Enter the Mobile Number or BAN, then click Search. </li>
+                                  <li>Click the valid account from the Results list.</li>
+                                  <li>Select the Authorized user listed in the Verify caller and information section of the Verification screen. </li>
+                                  <li>Enter the PIN/Passcode in the Verification method section of the Verification screen</li>
+                                  <li>Click Verify to enter the account.</li>
+                                </ul>
                             </div>
-                            <button class="button rounded-0 primary-bg text-white w-100" type="submit">Search</button>
-                          </form>
-                      </aside>
 
-                      <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title">Category</h4>
-                        <ul class="list cat-list">
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Resaurant food</p>
-                                    <p>(37)</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Travel news</p>
-                                    <p>(10)</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Modern technology</p>
-                                    <p>(03)</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Product</p>
-                                    <p>(11)</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Inspiration</p>
-                                    <p>21</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex">
-                                    <p>Health Care (21)</p>
-                                    <p>09</p>
-                                </a>
-                            </li>
+                            <div class="tab-pane fade show" id="heading-two">
+                                <ul>
+                                  <li>From the Account tab, select Manage Profile. </li>
+                                  <li>Select the Account tile under Account line summary.</li>
+                                  <li>In the Billing address tile, select Edit Billing Address.</li>
+                                  <li>In the One-time PIN verification modal, choose the 8064 number under Select or confirm MSISDN.</li>
+                                  <li>Under Send One-time PIN via: select Text, then click Send.</li>
+                                  <li>Enter the One-time PIN field, then click Verify.</li>
+                                  <li>Under Billing address, select the button for United States, then fill in the following spaces:
+                                    <ul>
+                                      <ol>Address</ol>
+                                      <ol>City</ol>
+                                      <ol>State</ol>
+                                      <ol>Zip Code</ol>
+                                    </ul>
+                                  </li>
+                                  <li>Click Validate</li>
+                                  <li>Leave the checkboxes for E911 address and PPU (primary place of use) address un-checked. </li>
+                                  <li>Click Continue.</li>
+                                  <li>Click Save changes</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade show" id="heading-three">
+                                <p class="m-5">Content Three</p>
+                            </div>
+                        </div>
+                    </div><!--CONTENT PANE S1-->
+                </div>
+            </div><!--EDNING SECTION 1-->
+
+            <div id="section-two" class="tab-pane fade bg-white text-dark">
+                <div class="row">
+                    <div class="col-md-3"><!--OPTIONS PANE-->
+                        <ul class="nav nav-tabs flex-column">
+                            <li><a href="#heading-on" class="nav-link bg-primary text-white active" data-toggle="tab">Heading One</a></li>
+                            <li><a href="#heading-tw" class="nav-link bg-primary text-white my-1" data-toggle="tab">Heading Two</a></li>
+                            <li><a href="#heading-th" class="nav-link bg-primary text-white" data-toggle="tab">Heading three</a></li>
                         </ul>
-                      </aside>
+                    </div><!--OPTIONS PANE S1-->
 
-                      <aside class="single_sidebar_widget popular_post_widget">
-                          <h3 class="widget_title">Recent Post</h3>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post1.jpg" alt="post">
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>From life was you fish...</h3>
-                                  </a>
-                                  <p>January 12, 2019</p>
-                              </div>
-                          </div>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post2.jpg" alt="post">                              
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>The Amazing Hubble</h3>
-                                  </a>
-                                  <p>02 Hours ago</p>
-                              </div>
-                          </div>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post3.jpg" alt="post">                              
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>Astronomy Or Astrology</h3>
-                                  </a>
-                                  <p>03 Hours ago</p>
-                              </div>
-                          </div>
-                          <div class="media post_item">
-                              <img src="img/blog/popular-post/post4.jpg" alt="post">
-                              <div class="media-body">
-                                  <a href="single-blog.html">
-                                      <h3>Asteroids telescope</h3>
-                                  </a>
-                                  <p>01 Hours ago</p>
-                              </div>
-                          </div>
-                      </aside>
-                      <aside class="single_sidebar_widget tag_cloud_widget">
-                          <h4 class="widget_title">Tag Clouds</h4>
-                          <ul class="list">
-                              <li>
-                                  <a href="#">project</a>
-                              </li>
-                              <li>
-                                  <a href="#">love</a>
-                              </li>
-                              <li>
-                                  <a href="#">technology</a>
-                              </li>
-                              <li>
-                                  <a href="#">travel</a>
-                              </li>
-                              <li>
-                                  <a href="#">restaurant</a>
-                              </li>
-                              <li>
-                                  <a href="#">life style</a>
-                              </li>
-                              <li>
-                                  <a href="#">design</a>
-                              </li>
-                              <li>
-                                  <a href="#">illustration</a>
-                              </li>
-                          </ul>
-                      </aside>
+                    <div class="col-md-9 w-50"><!--CONTENT PANE-->
+                        <div class="tab-content flex-center">
+                            <div class="tab-pane fade show active" id="heading-on">
+                                <p class="m-5">Content One</p>
+                            </div>
 
+                            <div class="tab-pane fade show" id="heading-tw">
+                                <p class="m-5">Content Two</p>
+                            </div>
 
-                      <aside class="single_sidebar_widget instagram_feeds">
-                        <h4 class="widget_title">Instagram Feeds</h4>
-                        <ul class="instagram_row flex-wrap">
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i1.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i2.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i3.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i4.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i5.png" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                  <img class="img-fluid" src="img/instagram/widget-i6.png" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                      </aside>
-
-
-                      <aside class="single_sidebar_widget newsletter_widget">
-                        <h4 class="widget_title">Newsletter</h4>
-
-                        <form action="#">
-                          <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Enter email" required>
-                          </div>
-                          <button class="button rounded-0 primary-bg text-white w-100" type="submit">Subscribe</button>
-                        </form>
-                      </aside>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
+                            <div class="tab-pane fade show" id="heading-th">
+                                <p class="m-5">Content Three</p>
+                            </div>
+                        </div>
+                    </div><!--CONTENT PANE S1-->
+                </div>
+            </div>
+        </div>
+    </div><!--CONTAINER-->
+  </main>
   <!--================Blog Area =================-->
 
  <!-- ================ start footer Area ================= -->
