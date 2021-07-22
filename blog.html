@@ -7,6 +7,19 @@
     <link rel="icon" href="img/logo/tex-logo.png" type="image/png">
     <title>Atlas/Samson</title>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover-effects.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!--JQuery Library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,16 +27,6 @@
     <script scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!--Compiled JS-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/animate-css/animate.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
@@ -94,151 +97,210 @@
                 <a href="#section-one" class="nav-link bg-danger text-white" data-toggle="tab">ATLAS</a>
             </li>
             <li class="nav-item ml-1">
-                <a href="#section-two" class="nav-link bg-info text-white" data-toggle="tab">Section Two</a>
+                <a href="#section-two" class="nav-link bg-info text-white" data-toggle="tab">SAMSON</a>
             </li>
         </ul>
         <div class="tab-content shadow-lg">
-            <div id="section-one" class="tab-pane fade show bg-white text-dark active">
-                <div class="row">
-                    <div class="col-md-3"><!--OPTIONS PANE-->
-                        <ul class="nav nav-tabs flex-column">
-                            <li><a href="#heading-one" class="nav-link bg-primary text-white active" data-toggle="tab">Verify an Account</a></li>
-                            <li><a href="#heading-two" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit Billing Adress</a></li>
-                            <li><a href="#heading-three" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit E911 Address</a></li>
-                            <li><a href="#heading-four" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit Contact Number</a></li>
-                            <li><a href="#heading-five" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit Caller ID Name</a></li>
-                            <li><a href="#heading-six" class="nav-link bg-primary text-white my-1" data-toggle="tab">Edit/Add Authorized user</a></li>
-                            <li><a href="#heading-seven" class="nav-link bg-primary text-white my-1" data-toggle="tab">Change Mobile Number (Waived Fee)</a></li>
-                            <li><a href="#heading-eight" class="nav-link bg-primary text-white my-1" data-toggle="tab">Port In Mobile Number</a></li>
-                            <li><a href="#heading-nine" class="nav-link bg-primary text-white my-1" data-toggle="tab">Suspend a Line (Lost/Stolen)</a></li>
-                            <li><a href="#heading-ten" class="nav-link bg-primary text-white my-1" data-toggle="tab">Suspend a Line (Seasonal)</a></li>
-                            <li><a href="#heading-eleven" class="nav-link bg-primary text-white my-1" data-toggle="tab">Suspend a Line (Military)</a></li>
-                            <li><a href="#heading-twelve" class="nav-link bg-primary text-white my-1" data-toggle="tab">Restore a Line (Lost/Stolen)</a></li>
-                            <li><a href="#heading-thirteen" class="nav-link bg-primary text-white my-1" data-toggle="tab">Restore Multiple Lines(Seasonal)</a></li>
-                            <li><a href="#heading-fourteen" class="nav-link bg-primary text-white my-1" data-toggle="tab">Convert Line Type - MI to DIGITS (With AutoPay Setup)</a></li>
-                        </ul>
-                    </div><!--OPTIONS PANE S1-->
+          <div id="section-one" class="tab-pane fade show bg-white text-dark active">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Account Overview</button>
+                  </h2>
+                
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Account Search, Verify and Load (Active)</button>
 
-                    <div class="col-md-9 fs-3"><!--CONTENT PANE-->
-                        <div class="tab-content flex-center">
-                            <div class="tab-pane fade fs-3 show active" id="heading-one">
-                                <ul>
-                                  <li>Click Lookup from the left-side menu.</li>
-                                  <li>Select Mobile Number or Account Number in the left drop-down list.</li>
-                                  <li>Enter the Mobile Number or BAN, then click Search. </li>
-                                  <li>Click the valid account from the Results list.</li>
-                                  <li>Select the Authorized user listed in the Verify caller and information section of the Verification screen. </li>
-                                  <li>Enter the PIN/Passcode in the Verification method section of the Verification screen</li>
-                                  <li>Click Verify to enter the account.</li>
-                                </ul>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">Account Search, Verify and Load (Active)</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul>
+                            <li>Click Lookup from the left-side menu.</li>
+                            <li>Select Mobile Number or Account Number in the left drop-down list.</li>
+                            <li>Enter the Mobile Number or BAN, then click Search. </li>
+                            <li>Click the valid account from the Results list.</li>
+                            <li>Select the Authorized user listed in the Verify caller and information section of the Verification screen. </li>
+                            <li>Enter the PIN/Passcode in the Verification method section of the Verification screen</li>
+                            <li>Click Verify to enter the account.</li>
+                          </ul>
+                        </div><!--CANVAS BODY-->
+                      </div><!--CANVAS-->
+                    </div>
+                  </div><!--COLLAPSE ONE-->
+              </div>
+                
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Manage Profile</button>
+                </h2>
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="accordion-body">
+
+                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">Edit Billing Address</button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">Edit Billing Address</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                          
+                        <div class="offcanvas-body">
+                          <ul>
+                            <li>From the Account tab, select Manage Profile. </li>
+                            <li>Select the Account tile under Account line summary.</li>
+                            <li>In the Billing address tile, select Edit Billing Address.</li>
+                            <li>In the One-time PIN verification modal, choose the 8064 number under Select or confirm MSISDN.</li>
+                            <li>Under Send One-time PIN via: select Text, then click Send.</li>
+                            <li>Enter the One-time PIN field, then click Verify.</li>
+                            <li>Under Billing address, select the button for United States, then fill in the following spaces:
+                              <ol>
+                                <li>Address</li>
+                                <li>City</li>
+                                <li>State</li>
+                                <li>Zip Code</li>
+                              </ol>
+                            </li>
+                            <li>Click Validate</li>
+                            <li>Leave the checkboxes for E911 address and PPU (primary place of use) address un-checked. </li>
+                            <li>Click Continue.</li>
+                            <li>Click Save changes</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight">Edit E911 Address</button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">Edit E911 Address</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                          
+                        <div class="offcanvas-body">
+                          <p class="text-danger">ADRESS JUST FOR EXAMPLE</p>
+                          <ul>
+                            <li>From the Account tab, select Manage Profile.</li>
+                            <li>Select the line tile under Account line summary.</li>
+                            <li>In the Contact information tile, click Edit E911/PPU address.</li>
+                            <li>In the E911 address section, fill in the following address.</li>
+                            <li>Address 1: 738 Lincoln Rd.
+                            <ol>
+                              <p class="text-danger fs-6">NOTE: The period after "Rd" must be included to avoid errors</p>
+                              <li>City: Miami Beach </li>
+                              <li>State: FL </li>
+                              <li>ZIP Code: 33139</li>
+                              <li>Click Validate</li>
+                            </ol>
+                            </li>
+                            <li>Review the information on the We have corrected the E911 address modal, then click Continue. </li>
+                            <li>Review the information on the Additional address options modal, then click Continue</li>
+                            <li>Click Save changes. </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Contact Number</button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">Edit Contact Number</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                          
+                        <div class="offcanvas-body">
+                          <ul>
+                            <li>From the Account tab, select Manage Profile</li>
+                            <li>Select the line tile under Account line summary. </li>
+                            <li>In the Contact information tile, click the Edit caller ID name link</li>
+                            <p class="text-danger">Name's just for example</p>
+                            <li>
+                              Replace the existing name under Caller ID name with the following name
+                              <ol>
+                                <li>First name: Khalida</li>
+                                <li>Last name: Saleh</li>
+                              </ol>
+                            </li>
+                            <li>Click Save changes.</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Caller ID Name</button>
+
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                          <h5 id="offcanvasRightLabel">Edit Caller ID Name</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                          
+                        <div class="offcanvas-body">
+                          <ul>
+                            <li>From the Account tab, select Manage Profile. </li>
+                            <li>Select the Account tile under Account line summary. </li>
+                            <li>In the Contact information tile, click the Edit contact information link. </li>
+                            <li>
+                              In the Billing name section, fill in the following contact numbers: 
+                              <ol>
+                                <li>Primary contact number: (718) 409-0312 </li>
+                                <li>Secondary contact number: (347) 271-5404 </li>
+                              </ol>
+                            </li>
+                            <li>Click Save changes</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                           <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5" aria-controls="offcanvasRight">Edit/Add Authorized User</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Edit/Add Authorized User</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
-
-                            <div class="tab-pane fade show" id="heading-two">
+                          
+                            <div class="offcanvas-body">
                                 <ul>
-                                  <li>From the Account tab, select Manage Profile. </li>
-                                  <li>Select the Account tile under Account line summary.</li>
-                                  <li>In the Billing address tile, select Edit Billing Address.</li>
-                                  <li>In the One-time PIN verification modal, choose the 8064 number under Select or confirm MSISDN.</li>
+                                  <li>From the Account tab, select Manage Profile</li>
+                                  <li>Select the Account tile under Account line summary</li>
+                                  <li>In the Authorized Users tile, click the Edit authorized users link</li>
+                                  <li>In the One-time PIN verification modal, choose the number under Select or confirm MSISDN.</li>
                                   <li>Under Send One-time PIN via: select Text, then click Send.</li>
-                                  <li>Enter the One-time PIN field, then click Verify.</li>
-                                  <li>Under Billing address, select the button for United States, then fill in the following spaces:
+                                  <li>Enter the One-time PIN field, then click Verify. </li>
+                                  <li>Review the information in the Authorized user's permissions modal, then click Continue. </li>
+                                  <li>
+                                    Replace the existing name under Authorized user 1 with the following
                                     <ol>
-                                      <li>Address</li>
-                                      <li>City</li>
-                                      <li>State</li>
-                                      <li>Zip Code</li>
+                                      <li>First name: John </li>
+                                      <li>Last name: Camp </li>
                                     </ol>
                                   </li>
-                                  <li>Click Validate</li>
-                                  <li>Leave the checkboxes for E911 address and PPU (primary place of use) address un-checked. </li>
-                                  <li>Click Continue.</li>
-                                  <li>Click Save changes</li>
-                                </ul>
-                            </div>
-
-                            <div class="tab-pane fade show" id="heading-three">
-                              <p class="text-danger">ADRESS JUST FOR EXAMPLE</p>
-                                <ul>
-                                  <li>From the Account tab, select Manage Profile.</li>
-                                  <li>Select the line tile under Account line summary.</li>
-                                  <li>In the Contact information tile, click Edit E911/PPU address.</li>
-                                  <li>In the E911 address section, fill in the following address.</li>
-                                  <li>Address 1: 738 Lincoln Rd.
+                                  <li>
+                                    Replace the existing name under Authorized user 2 with the following: 
                                     <ol>
-                                      <p class="text-danger fs-6">NOTE: The period after "Rd" must be included to avoid errors</p>
-                                      <li>City: Miami Beach </li>
-                                      <li>State: FL </li>
-                                      <li>ZIP Code: 33139</li>
-                                      <li>Click Validate</li>
+                                      <li>First name: Willow</li>
+                                      <li>Last name: Quintano </li>
                                     </ol>
                                   </li>
-                                  <li>Review the information on the We have corrected the E911 address modal, then click Continue. </li>
-                                  <li>Review the information on the Additional address options modal, then click Continue</li>
-                                  <li>Click Save changes. </li>
+                                  <li>Click Save Changes. </li>
                                 </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-four">
-                              <ul>
-                                <li>From the Account tab, select Manage Profile. </li>
-                                <li>Select the Account tile under Account line summary. </li>
-                                <li>In the Contact information tile, click the Edit contact information link. </li>
-                                <li>
-                                  In the Billing name section, fill in the following contact numbers: 
-                                  <ol>
-                                    <li>Primary contact number: (718) 409-0312 </li>
-                                    <li>Secondary contact number: (347) 271-5404 </li>
-                                  </ol>
-                                </li>
-                                <li>Click Save changes</li>
-                              </ul>
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6" aria-controls="offcanvasRight">Change Mobile Number (Waived Fee)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Change Mobile Number (Waived fee)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
-
-                            <div class="tab-pane fade show" id="heading-five">
-                              <ul>
-                                <li>From the Account tab, select Manage Profile</li>
-                                <li>Select the line tile under Account line summary. </li>
-                                <li>In the Contact information tile, click the Edit caller ID name link</li>
-                                <p class="text-danger">Name's just for example</p>
-                                <li>
-                                  Replace the existing name under Caller ID name with the following name
-                                  <ol>
-                                    <li>First name: Khalida</li>
-                                    <li>Last name: Saleh</li>
-                                  </ol>
-                                </li>
-                                <li>Click Save changes.</li>
-                              </ul>
-                            </div>
-
-                            <div class="tab-pane fade show" id="heading-six">
-                              <ul>
-                                <li>From the Account tab, select Manage Profile</li>
-                                <li>Select the Account tile under Account line summary</li>
-                                <li>In the Authorized Users tile, click the Edit authorized users link</li>
-                                <li>In the One-time PIN verification modal, choose the number under Select or confirm MSISDN.</li>
-                                <li>Under Send One-time PIN via: select Text, then click Send.</li>
-                                <li>Enter the One-time PIN field, then click Verify. </li>
-                                <li>Review the information in the Authorized user's permissions modal, then click Continue. </li>
-                                <li>
-                                  Replace the existing name under Authorized user 1 with the following
-                                  <ol>
-                                    <li>First name: John </li>
-                                    <li>Last name: Camp </li>
-                                  </ol>
-                                </li>
-                                <li>
-                                  Replace the existing name under Authorized user 2 with the following: 
-                                  <ol>
-                                    <li>First name: Willow</li>
-                                    <li>Last name: Quintano </li>
-                                  </ol>
-                                </li>
-                                <li>Click Save Changes. </li>
-                              </ul>
-                            </div>
-
-                            <div class="tab-pane fade show" id="heading-seven">
+                          
+                            <div class="offcanvas-body">
                               <ul>
                                 <li class="text-danger">Always expect the customer if they are calling us from the old number, the call will be dropped. <br> Information here is just for example</li>
                                 <li>From the Account tab, select Manage Profile</li>
@@ -255,25 +317,43 @@
                                 <li>In the Confirm mobile number change modal, review the information, then click Confirm. </li>
                               </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-eight">
-                              <ul>
-                                <li>From the Account tab, select Manage Profile.</li>
-                                <li>Select the line tile under Account line summary.</li>
-                                <li>In the Status tile, click the Change mobile number link.</li>
-                                <li>Under Type of change, click the button for Port in. </li>
-                                <li>Enter 703-846-8203 in the Number to port in field, then click Validate.
-                                  <ol>
-                                    <li>In the Current carrier account number field, enter 705227937.</li>
-                                    <li>In the Current carrier PIN/passcode field, enter 3499.</li>
-                                  </ol>
-                                </li>
-                                <li>Click Submit</li>
-                                <li>Review the information in the Port in request submitted modal, then click Okay.</li>
-                              </ul>
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight7" aria-controls="offcanvasRight">Port in Mobile Number</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight7" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Port in Mobile Number</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                  <li>From the Account tab, select Manage Profile.</li>
+                                  <li>Select the line tile under Account line summary.</li>
+                                  <li>In the Status tile, click the Change mobile number link.</li>
+                                  <li>Under Type of change, click the button for Port in. </li>
+                                  <li>Enter 703-846-8203 in the Number to port in field, then click Validate.
+                                    <ol>
+                                      <li>In the Current carrier account number field, enter 705227937.</li>
+                                      <li>In the Current carrier PIN/passcode field, enter 3499.</li>
+                                    </ol>
+                                  </li>
+                                  <li>Click Submit</li>
+                                  <li>Review the information in the Port in request submitted modal, then click Okay.</li>
+                                </ul>
+                            </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-nine">
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight8" aria-controls="offcanvasRight">Suspend a Line (lost/stolen)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight8" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Suspend a Line (lost/stolen)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
                               <ul>
                                 <li>From the Account tab, select Manage Profile.</li>
                                 <li>Select the line tile under Account line summary.</li>
@@ -283,8 +363,17 @@
                                 <li>Click Submit</li>
                               </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-ten">
+                           <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight8" aria-controls="offcanvasRight">Suspend a Line (Seasonal)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight8" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Suspend a Line (Seasonal)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
                               <ul>
                                 <li>From the Account tab, select Manage Profile</li>
                                 <li>Select the line under Account line summary. </li>
@@ -297,9 +386,18 @@
                                 <li>Click Submit.</li>
                               </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-eleven">
-                              <ul>
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight9" aria-controls="offcanvasRight">Suspend a Line (Military)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight9" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Suspend a Line (Military)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                             <ul>
                                 <li>From the Account tab, select Manage Profile</li>
                                 <li>Select the line under Account line summary</li>
                                 <li>In the Status tile, click the Suspend line link.</li>
@@ -309,8 +407,17 @@
                                 <li>Click Submit.</li>
                               </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-twelve">
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight10" aria-controls="offcanvasRight">Restore a Line (lost/stolen)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight10" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Restore a Line (lost/stolen)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
                               <ul>
                                 <li>From the Account tab, select Manage Profile.</li>
                                 <li>Select the line tile under Account line summary</li>
@@ -319,9 +426,17 @@
                                 <li>Click Submit.</li>
                               </ul>
                             </div>
+                          </div>
 
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight10" aria-controls="offcanvasRight">Restore Multiple Lines (Seasonal)</button>
 
-                            <div class="tab-pane fade show" id="heading-thirteen">
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight10" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Restore a Line (Seasonal)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
                               <ul>
                                 <li>From the Account tab, select Manage Profile</li>
                                 <li>Select the line tile under Account line summary</li>
@@ -331,62 +446,653 @@
                                 <li>Click Submit. </li>
                               </ul>
                             </div>
+                          </div>
 
-                            <div class="tab-pane fade show" id="heading-fourteen">
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight11" aria-controls="offcanvasRight">Convert Line Type - MI to DIGITS (With Autopay Setup)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight11" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Convert Line Type - MI to DIGITS (With Autopay Setup)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
                               <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <p class="text-danger">Info here is just for example and cannot be used in real accounts.</p>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the line tile under Account line summary</li>
+                                <li>In the Line details tile, click the Convert line type button</li>
+                                <li>On the Convert line type window, review the information, then click Continue</li>
+                                <li>Review the information in the This line has a legacy rate plan modal, then click Continue</li>
+                                <li>On the Choose a new rate plan screen, select Data w/ paired DIGITS (DWPDIRTI)</li>
+                                <li>Ensure that the checkbox next to Enroll in AutoPay is checked</li>
+                                <li>Click Continue</li>
+                                <li>On the Manage AutoPay modal, click the new card tile
+                                  <ol>
+                                    <li>Enter Test in the Name on card field.</li>
+                                    <li>Enter 5555555555555557 in the Card number field</li>
+                                    <li>Enter 04 in the Expiration Month field</li>
+                                    <li>Enter 2022 in the Expiration Year field</li>
+                                    <li>Enter 267 in the CVV field</li>
+                                    <li>Enter 30041 in the Zip code field</li>
+                                    <li>Click the Validate button</li>
+                                    <li>Click Continue</li>
+                                  </ol>
+                                </li>
+                                <li>On the New enrollment screen, enter AtlasTraining05@T-Mobile.com in the Enter email (optional) field</li>
+                                <li>Review the information on the screen, then click the checkbox next to Customer has agreed to the Terms and Conditions</li>
+                                <li>Click Accept AutoPay</li>
+                                <li>Review the information on the Manage AutoPay screen, then click Continue</li>
+                                <li>Review the information on the Conflict summary screen, then click Continue. </li>
+                                <li>On the Change features screen, scroll down and click Continue</li>
+                                <li>On the Data with DIGITS pairing screen, click the radio button from the line, then click Continue</li>
+                                <li>Review the information on the Review cart screen, then click Checkout. </li>
+                                <li>Review the information on the Confirmation screen, then click Close</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight12" aria-controls="offcanvasRight">Convert Line Type - MI to DIGITS (No Autopay Setup)</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight12" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">RConvert Line Type - MI to DIGITS (No Autopay Setup)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the line tile under Account line summary</li>
+                                <li>In the line details tile, click the convert line type button</li>
+                                <li>On the Convert line type window, review the information, then click continue</li>
+                                <li>On the Choose a new rate plan scree, select HS Data w/ paired DIGITS</li>
+                                <li>Click continue</li>
+                                <li>On the change features screen, scroll down and click continue</li>
+                                <li>On the Dta with DIGITS pairing screen, click the radio button form the line, then click continue</li>
+                                <li>Review the information on the Review cart screen, then click Checkout</li>
+                                <li>Review the information on the Confirmation screen, then click Close.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight13" aria-controls="offcanvasRight">SetUp Paperless Billing</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight13" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">SetUp Paperless Billing</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the Account tile under Account Line summary</li>
+                                <li>In the Billing Address tile, click the Edit Paperless billing link</li>
+                                <li>In the One-Time PIN verification modal, choose the number under select or confirm MSISDN</li>
+                                <li>Under Send One-Time PIN via, select ext, then click send</li>
+                                <li>Enter the One-Time PIN, then click verify</li>
+                                <li>In the Bill notification preferences modal, ensure the Paperless billing button is clicked</li>
+                                <li>Ensure that the both the Send email billnotifications and the Send SMS bill notification boxes are checked</li>
+                                <li>In the email address field, enter the email, then click save</li>
+                                <li>Review the information on the Successfully saved modal, then click Close.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight14" aria-controls="offcanvasRight">Cancel Paperless Billing</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight14" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Cancel Paperless Billing</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the Account tile under Account Line summary</li>
+                                <li>In the Billing Address tile, click the Edit Paperless billing link</li>
+                                <li>In the One-Time PIN verification modal, choose the number under select or confirm MSISDN</li>
+                                <li>Under Send One-Time PIN via, select ext, then click send</li>
+                                <li>Enter the One-Time PIN, then click verify</li>
+                                <li>In the Bill notification preferences modal, click the Switch to paper bill button</li>
+                                <li>Ensure that the Summary (free) button is selected</li>
+                                <li>Click Save</li>
+                                <li>Review the information on the Successfully saved modal, then click Close.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight15" aria-controls="offcanvasRight">Change Marketing Preferences</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight15" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Change Marketing Preferences</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the line tile under Account line summary</li>
+                                <li>In the line details tile, click Edit marketing preferences</li>
+                                <li>Click the Edit link next to Marketing email address</li>
+                                <li>When the Edit marketing email address modal populates, enter the email into the Marketing email address field</li>
+                                <li>Click the update & save email button</li>
+                                <li>Review the information in the Updated preferences are saved modal, then click Okay</li>
+                                <li>In the T-Mobile tile, click the Select all/none checkbox for email</li>
+                                <li>Click Save changes</li>
+                                <li>Review the information in the updated preferences are saved modal, then click okay.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight16" aria-controls="offcanvasRight">Opt Out of Mareting Preferences</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight16" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Opt Out of Mareting Preferences</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the line tile under Account line Summary</li>
+                                <li>In the line details tile, clic Edit Marketing preferences</li>
+                                <li>Select the checkbox Opt out of receiving all marketing correspondece</li>
+                                <li>Click sace changes</li>
+                                <li>Review the information in the U´dated preferences are saved modal, then click Okay</li>
+                              </ul>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+              </div><!--ACCORDION ITEM 2-->
+                  
+              <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Rate Plan Change
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                         <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight17" aria-controls="offcanvasRight">Single Line</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight17" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Single Line</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here are just examples on how it should be filled</p>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click Rate Plan Change under Capabilities</li>
+                                <li>On the Change Rate Plan screen, click continue</li>
+                                <li>On the the Choose a new rate plan screenm Select the Magenta Plus Single Line (MAGSLPL) rate plan</li>
+                                <li>Click the Effective date link to change the rate plan's effective date</li>
+                                <li>Select the Future date to next bill cycle option in the Edit effective dates window, and then click Continue.</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare Included Features section</li>
+                                <li>Click Continue</li>
+                                <li>Review any Conflict Summary items and click Continue</li>
+                                <li>On the Change Features page, click to expand the Subscriber</li>
+                                <li>Under Subscriber, click to expand and review the Data/Web features</li>
+                                <li>Click the box to select PlusUp Data (MGPLS0)</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking Features features. </li>
+                                <li>Optional - Click to expand and review the Additional Voice features</li>
+                                <li>When you have finished reviewing, click Go to cart.</li>
+                                <li>Review the Rate Plan Cart, then click Checkout</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>
+                          </div> 
+
+                           <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight18" aria-controls="offcanvasRight">Single Line - Backdate</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight18" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Single Line - Backdate</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Rate Plan Change link from the Capabilities section</li>
+                                <li>On the Change rate plan screen, click Continue</li>
+                                <li>On the Choose a new rate plan screen, select the Magenta Plus Single Line (MAGSLPL) rate plan.</li>
+                                <li>Click the Effective date link to change the rate plan's effective date</li>
+                                <li>In the Edit effective dates popup window, select Backdate to the beginning of the bill cycle, then click Continue</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare included features section</li>
+                                <li>Click Continue</li>
+                                <li>Review the Conflict Summary items, then click Continue</li>
+                                <li>On the Change Features page, click to expand and review the Data/Web features</li>
+                                <li>Select the checkbox for PlusUp Data (MGPLS0)</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking features</li>
+                                <li>Optional - Click to expand and review the Loyalty features</li>
+                                <li>Click Go to cart</li>
+                                <li>Review the Rate Plan Cart, then click Checkout</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>                    
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight19" aria-controls="offcanvasRight">Single Line to 55+ Plan</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight19" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Single Line to 55+ Plan</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Rate Plan Change link from the Capabilities section</li>
+                                <li>On the Change rate plan screen, click Continue</li>
+                                <li>Select the Magenta Unlimited 55 (MAG55TI) rate plan from the Available rate plans section of the Choose a new rate plan screen</li>
+                                <li>Click the Effective date link to change the rate plan's effective date</li>
+                                <li>In the Edit effective dates popup window, select Future date to the next bill cycle, then click Continue</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare included features section </li>
+                                <li>Click Continue</li>
+                                <li>On the Change Features page, click to expand and review the Data/Web features</li>
+                                <li>Ensure that the checkbox for Magenta Data (MAGDATA) is selected</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking features</li>
+                                <li>Optional - Click to expand and review the Additional Voice features</li>
+                                <li>Click Go to cart</li>
+                                <li>Review the Rate Plan Cart, then click Checkou</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight20" aria-controls="offcanvasRight">Multi-Line to Military Plan</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight20" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Multi-Line to Military Plan</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Rate Plan Change link from the Capabilities section</li>
+                                <li>Optional - Click to expand and review the Features section on the Change Rate Plan screen</li>
+                                <li>Optional - Click to expand and review the Included and Mandatory sections of the Account Features screen, then click Back</li>
+                                <li>Under What type of rate plan would you like to do?, choose Move Voice subscribers to another Family plan</li>
+                                <li>Click Continue</li>
+                                <li>Select the Magenta Plus Military (MPLSMLFM) rate plan from the Available rate plans section of the Choose a new rate plan screen</li>
+                                <li>Click the Effective date link to change the rate plan's effective date</li>
+                                <li>In the Edit effective dates popup window, select Future date to the next bill cycle, then click Continue</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare included features section</li>
+                                <li>Click Continue</li>
+                                <li>On the Select talk primary lines page, review the selected Talk primary lines, then click Continue</li>
+                                <li>Review the information on the Conflict Summary modal, then click Continue</li>
+                                <li>On the Change Features page, click to expand the 0568 line</li>
+                                <li>Click to expand the Data/Web features</li>
+                                <li>Select PlusUp Data (MGPLS0)</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking features</li>
+                                <li>Optional - Click to expand and review the Additional Voice features</li>
+                                <li>Repeat steps 22-28 for the 2754 line</li>
+                                <li>Click Go to cart</li>
+                                <li>Review the Rate Plan Cart, then click Checkout</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight21" aria-controls="offcanvasRight">Multi-Line to First Responder Plan</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight21" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Multi-Line to First Responder Plan</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Rate Plan Change link from the Capabilities section</li>
+                                <li>Optional - Click to expand and review the Features section on the Change Rate Plan screen</li>
+                                <li>Optional - Click to expand and review the Included and Mandatory sections of the Account Features screen, then click Back</li>
+                                <li>Under What type of rate plan would you like to do?, choose Move Voice subscribers to another Family plan</li>
+                                <li>Click Continue</li>
+                                <li>Select the Magenta First Responder Plus (MPLSFRFM) rate plan from the Available rate plans section of the Choose a new rate plan screen</li>
+                                <li>Click the Effective date link to change the rate plan's effective date</li>
+                                <li>In the Edit effective dates popup window, select Backdate to the beginning of the bill cycle, then click Continue</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare included features section </li>
+                                <li>Click Continue</li>
+                                <li>On the Select talk primary lines page, review the selected Talk primary lines, then click Continue</li>
+                                <li>Review the information on the Conflict Summary modal, then click Continue</li>
+                                <li>On the Change Features page, click to expand the 7425 line.</li>
+                                <li>Click to expand the Data/Web features</li>
+                                <li>Select PlusUp Data (MGPLS0)</li>
+                                <li>Review the information in the Feature conflict modal, then click Add to cart</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking features</li>
+                                <li>Optional - Click to expand and review the Additional Voice features</li>
+                                <li>Repeat steps 22-29 for the 3540 line.</li>
+                                <li>Click Go to cart.</li>
+                                <li>Review the Rate plan cart, then click Checkout</li>
+                                <li>Review the Success page, then click Close</li>
                               </ul>
                             </div>
                         </div>
-                    </div><!--CONTENT PANE S1-->
-                </div>
-            </div><!--EDNING SECTION 1-->
 
-            <div id="section-two" class="tab-pane fade bg-white text-dark">
-                <div class="row">
-                    <div class="col-md-3"><!--OPTIONS PANE-->
-                        <ul class="nav nav-tabs flex-column">
-                            <li><a href="#heading-on" class="nav-link bg-primary text-white active" data-toggle="tab">Heading One</a></li>
-                            <li><a href="#heading-tw" class="nav-link bg-primary text-white my-1" data-toggle="tab">Heading Two</a></li>
-                            <li><a href="#heading-th" class="nav-link bg-primary text-white" data-toggle="tab">Heading three</a></li>
-                        </ul>
-                    </div><!--OPTIONS PANE S1-->
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight22" aria-controls="offcanvasRight">Multi-Line Plan to Multiple Single Line Plans</button>
 
-                    <div class="col-md-9 w-50"><!--CONTENT PANE-->
-                        <div class="tab-content flex-center">
-                            <div class="tab-pane fade show active" id="heading-on">
-                                <p class="m-5">Content One</p>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight22" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Multi-Line Plan to Multiple single Line Plans</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
-
-                            <div class="tab-pane fade show" id="heading-tw">
-                                <p class="m-5">Content Two</p>
-                            </div>
-
-                            <div class="tab-pane fade show" id="heading-th">
-                                <p class="m-5">Content Three</p>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Rate Plan Change link from the Capabilities section</li>
+                                <li>Optional - Click to expand and review the Features section on the Change Rate Plan screen</li>
+                                <li>Optional - Click to expand and review the Included and Mandatory sections of the Account Features screen, then click Back</li>
+                                <li>Under What type of rate plan would you like to do?, choose Select individual plans for all Voice subscribers</li>
+                                <li>Optional - Hover over the information icon and review the information.</li>
+                                <li>Click Continue</li>
+                                <li>When the This account has grandfathered rate plans modal appears, review the information and click Continue</li>
+                                <li>Select the Unlimited Talk & Text Only (UNLMTT) rate plan from the Available rate plans section of the Choose a new rate plan screen.</li>
+                                <li>When the AutoPay discount ineligibility modal appears, review the information and click Continue</li>
+                                <li>Click the Effective date link to change the rate plan's effective date.</li>
+                                <li>In the Edit effective dates popup window, select Future date to the next bill cycle, then click Continue</li>
+                                <li>Optional - Click to expand and review the Compare Plan Details section</li>
+                                <li>Optional - Click to expand and review the Compare included features section </li>
+                                <li>Click Continue</li>
+                                <li>On the Change Features page, click to expand and review the first 3167 line</li>
+                                <li>Click to expand the Data/Web features.</li>
+                                <li>Click the checkbox for the Cust declined data service (NODATA) feature</li>
+                                <li>Optional - Click to expand and review the Value-Add features</li>
+                                <li>Optional - Click to expand and review the Roaming & Long Distance features</li>
+                                <li>Optional - Click to expand and review the Blocking features</li>
+                                <li>Optional - Click to expand and review the Additional Voice features</li>
+                                <li>Repeat steps 23-29 for the 0737 line</li>
+                                <li>Click Go to cart</li>
+                                <li>Review the Rate Plan Cart, then click Checkout</li>
+                                <li>Review the Conflict Summary page, then click Continue</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
                             </div>
                         </div>
-                    </div><!--CONTENT PANE S1-->
-                </div>
-            </div>
-        </div>
+                      </div>
+                    </div>
+              </div><!--ACCORDION ITEM THREE-->
+
+              <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Add or Remove Features
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight23" aria-controls="offcanvasRight">Add Feature (BAN Level)</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight23" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Add Feature (BAN Level)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here are just examples on how it should be filled</p>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Add remove features link from the Capabilities section</li>
+                                <li>Click to expand the Account section of the Change features screen</li>
+                                <li>Click to expand the Value-Add section</li>
+                                <li>In the Available Features section, click to select the Family Allowances (FAMALL10) checkbox.</li>
+                                <li>Click the Effective date link next to the feature</li>
+                                <li>Click the Effective date link next to the feature</li>
+                                <li>On the Change features page, click Go to cart</li>
+                                <li>On the Feature Cart screen, click the Checkout button</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>
+                        </div> 
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight24" aria-controls="offcanvasRight">Remove Feature (BAN Level)</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight24" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Remove Feature (BAN Level)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here is just an example on how it should be filled</p>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Add/Remove Features link from the Capabilities section.</li>
+                                <li>Click to expand the Account section</li>
+                                <li>Click to expand Value-add feature category</li>
+                                <li>Click to clear the Family Allowance Promotion (PROFALL5) checkbox from the current features section</li>
+                                <li>Review the information in the Are you sure you want to remove this grandfathered feature? modal, then click Continue</li>
+                                <li>Click the Effective date</li>
+                                <li>At the bottom of the Edit effective dates window, under Select expiration date, click the calendar</li>
+                                <li>Select August 31 as the expiration date, and then click Continue</li>
+                                <li>Click Go to Cart.</li>
+                                <li>On the Feature cart screen, click Checkout</li>
+                                <li>Review the Success screen, then click Close</li>
+                              </ul>
+                            </div>                    
+                        </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight25" aria-controls="offcanvasRight">Remove Feature (Sub Level)</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight25" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Remove Feature (Sub Level)</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here is just an example about how it should be filled</p>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Add/Remove Features link from the Capabilities section</li>
+                                <li>Click to expand the subscriber line for (929) 724-0446</li>
+                                <li>Click to expand Value-add feature category</li>
+                                <li>Click to clear the JUMP 2.0 (JMP2IND) checkbox from the current features section. </li>
+                                <li>Review the information in the Are you sure you want to remove this grandfathered feature? modal, then click Continue</li>
+                                <li>Click the Effective date</li>
+                                <li>At the bottom of the Edit effective dates window, under Select expiration date, click the calendar. </li>
+                                <li>Select Today's date as the expiration date, and then click Continue</li>
+                                <li>Click Go to Cart</li>
+                                <li>On the Feature cart screen, click Checkout</li>
+                                <li>Review the Success screen, then click Close</li>
+                              </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight26" aria-controls="offcanvasRight">Add T-Vision</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight26" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Add T-Vision</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                        
+                          <div class="offcanvas-body">
+                            <ul>
+                              <li>Click Launchpad from the left-hand navigation bar</li>
+                              <li>Click the Add/Remove Features link from the Capabilities section</li>
+                              <li>Click to expand the Account section</li>
+                              <li>Click to expand Value-add feature category</li>
+                              <li>In the Available Features section, click to select the TVision Live TV TE (TVLIVEAD) checkbox</li>
+                              <li>Click the Effective date</li>
+                              <li>In the Edit effective dates window, select Today's date, then click Continue</li>
+                              <li>Click Go to Cart</li>
+                              <li>On the Feature cart screen, review the information in the Review and Accept T-Mobile Terms & Conditions of Service, then click the box next to Customer agrees to these terms</li>
+                              <li>Click Checkout</li>
+                              <li>Review the Success screen, then click Close</li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight27" aria-controls="offcanvasRight">Remove Device Protection</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight27" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Remove Device Protection</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Add/Remove Features link from the Capabilities section</li>
+                                <li>Click to expand the subscriber line for (516) 300-2800</li>
+                                <li>Click to expand Value-add feature category</li>
+                                <li>Click to clear the NY Protection 360 Tier 5 TE (NYP3605) checkbox from the current features section</li>
+                                <li>Review the information in the Whoa! This removes device protection modal, then click Continue</li>
+                                <li>Click the Effective date</li>
+                                <li>At the bottom of the Edit effective dates window, under Select expiration date, click the calendar</li>
+                                <li>Select Today's date as the expiration date, and then click Continue</li>
+                                <li>Click Go to Cart</li>
+                                <li>On the Feature cart screen, click Checkout</li>
+                                <li>Review the Success screen, then click Close.</li>
+                              </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight28" aria-controls="offcanvasRight">Upgrade Netflix On Us Feature</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight28" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Upgrade Netflix On Us Feature</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>Click Launchpad from the left-hand navigation bar</li>
+                                <li>Click the Add remove features link from the Capabilities section</li>
+                                <li>Click to expand the Account section of the Change features screen</li>
+                                <li>Click to expand the Value-Add section</li>
+                                <li>In the Available Features section, click to select the 4 Screens HD Netflix $15.99 (HD4SNFLX) checkbox</li>
+                                <li>Review the information in the Feature conflict pop-up window, then click Add to cart</li>
+                                <li>Click the Effective date link next to the feature</li>
+                                <li>In the Edit effective dates modal window, choose Today's date, then click Continue</li>
+                                <li>On the Change features window, click Go to cart.</li>
+                                <li>On the Feature cart screen, click the Checkout button</li>
+                                <li>Review the Success page, then click Close</li>
+                              </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight29" aria-controls="offcanvasRight">QuikDelete Sub Level Feature</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight29" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">QuikDelete Sub Level Feature</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          
+                          <div class="offcanvas-body">
+                            <ul>
+                              <p class="text-danger">Info here is just an example on how it should be filled</p>
+                              <li>From the Account tab, select Plans and services</li>
+                              <li>Select the 1499 line tile under Account line summary</li>
+                              <li>Under Features, expand the Optional blade</li>
+                              <li>Click the X to the right of JUMP 2.0</li>
+                              <li>On the You're removing a grandfathered feature! modal, under Effective date for this change,click the calendar</li>
+                              <li>Select September 30 as the expiration date, and then click Confirm remove feature</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div><!--ACCORDION ITEM FOUR-->
+
+              <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Device Dashboard
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight30" aria-controls="offcanvasRight">Home Internet Order</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight30" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Home Internet Order</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here are just examples on how it should be filled</p>
+                                <li>From the Devices tab, select Device Dashboard.</li>
+                                <li>Select the 8513 line tile under Account line summary</li>
+                                <li>In the Device - current tile, click Reorder device</li>
+                                <li>In the Home Internet LTE WiFi Gateway tile, click Add to Cart, then click Continue</li>
+                                <li> On the Shipping information screen, review the Ship to address and the Shipping method, then enter AtlasTraining70@T-Mobile.com in the Email address field</li>
+                                <li>Ensure that the Email checkbox if clicked, then click Continue to checkout</li>
+                                <li>On the Checkout screen, review the information in the Terms and conditions box, then click the checkbox for Customer accepts these Terms & Conditions</li>
+                                <li>Click the Place an order button</li>
+                                <li>Review the information on the Confirmation screen, then click Close</li>
+                              </ul>
+                            </div>
+                        </div> 
+
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight31" aria-controls="offcanvasRight">Update SIM</button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight31" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Update SIM</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                              <ul>
+                                <p class="text-danger">Information here is just an example on how it should be filled</p>
+                                <li>From the Devices tab, select Device Dashboard</li>
+                                <li>Select the 5875 line tile under Account line summary</li>
+                                <li>Click the Update SIM button</li>
+                                <li>In the One-time PIN verification modal, choose the 5875 number under Select or confirm MSISDN</li>
+                                <li>Under Send One-time PIN via:, select Text, then click Send</li>
+                                <li>Enter 933089 into the One-time PIN field, then click Verify</li>
+                                <li>In the Update SIM modal, click the Reasons for change drop-down, then select Customer/employee reques</li>
+                                <li>In the New SIM/ICCID/eSIM field, enter 8901260000001547542, then click Validate</li>
+                                <li>After the SIM is validated, click Save changes</li>
+                                <li>Review the information in the SIM update successful modal, then click the X to close</li>
+                              </ul>
+                            </div>                    
+                        </div>
+                      </div><!--ACCORDION BODY-->
+                    </div>
+              </div><!--ACCORDION ITEM FIVE-->
+          </div><!--EDNING SECTION 1-->
+          
+          <div id="section-two" class="tab-pane fade bg-white text-dark">
+              
+          </div><!--SECTION TWO-->
+        </div> 
     </div><!--CONTAINER-->
   </main>
   <!--================Blog Area =================-->
@@ -484,5 +1190,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/theme.js"></script>
+        <script>
+            // For Demo purposes only (show hover effect on mobile devices)
+            [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+                el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+            } );
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 </body>
 </html>
