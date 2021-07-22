@@ -94,167 +94,203 @@
     <div class="container p-5">
         <ul class="nav nav-tabs nav-justified">
             <li class="nav-item mr-1 active">
-                <a href="#section-one" class="nav-link bg-danger text-white" data-toggle="tab">ATLAS</a>
+                <a href="#section-one" class="nav-link bg-danger text-white" data-toggle="tab">SAMSON</a>
             </li>
             <li class="nav-item ml-1">
-                <a href="#section-two" class="nav-link bg-info text-white" data-toggle="tab">SAMSON</a>
+                <a href="#section-two" class="nav-link bg-info text-white" data-toggle="tab">ATLAS</a>
             </li>
         </ul>
         <div class="tab-content shadow-lg">
           <div id="section-one" class="tab-pane fade show bg-white text-dark active">
-            <div class="accordion" id="accordionExample">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Account Overview</button>
-                  </h2>
-                
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Account Search, Verify and Load (Active)</button>
-
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Account Search, Verify and Load (Active)</h5>
-                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                          <ul>
-                            <li>Click Lookup from the left-side menu.</li>
-                            <li>Select Mobile Number or Account Number in the left drop-down list.</li>
-                            <li>Enter the Mobile Number or BAN, then click Search. </li>
-                            <li>Click the valid account from the Results list.</li>
-                            <li>Select the Authorized user listed in the Verify caller and information section of the Verification screen. </li>
-                            <li>Enter the PIN/Passcode in the Verification method section of the Verification screen</li>
-                            <li>Click Verify to enter the account.</li>
-                          </ul>
-                        </div><!--CANVAS BODY-->
-                      </div><!--CANVAS-->
-                    </div>
-                  </div><!--COLLAPSE ONE-->
-              </div>
-                
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Manage Profile</button>
+                <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Accordion Item #1</button>
                 </h2>
+                
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div><!--ACCORDION ITEM ONE-->
 
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="accordion-body">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Accordion Item #2</button>
+                </h2>
+                
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div><!--ACCORDION ITEM TWO-->
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+              
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div><!--EDNING SECTION 1-->
 
-                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">Edit Billing Address</button>
+            <div id="section-two" class="tab-pane fade bg-white text-dark">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Account Overview</button>
+                    </h2>
+                  
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Account Search, Verify and Load (Active)</button>
 
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Edit Billing Address</h5>
-                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                          
-                        <div class="offcanvas-body">
-                          <ul>
-                            <li>From the Account tab, select Manage Profile. </li>
-                            <li>Select the Account tile under Account line summary.</li>
-                            <li>In the Billing address tile, select Edit Billing Address.</li>
-                            <li>In the One-time PIN verification modal, choose the 8064 number under Select or confirm MSISDN.</li>
-                            <li>Under Send One-time PIN via: select Text, then click Send.</li>
-                            <li>Enter the One-time PIN field, then click Verify.</li>
-                            <li>Under Billing address, select the button for United States, then fill in the following spaces:
-                              <ol>
-                                <li>Address</li>
-                                <li>City</li>
-                                <li>State</li>
-                                <li>Zip Code</li>
-                              </ol>
-                            </li>
-                            <li>Click Validate</li>
-                            <li>Leave the checkboxes for E911 address and PPU (primary place of use) address un-checked. </li>
-                            <li>Click Continue.</li>
-                            <li>Click Save changes</li>
-                          </ul>
-                        </div>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Account Search, Verify and Load (Active)</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <ul>
+                              <li>Click Lookup from the left-side menu.</li>
+                              <li>Select Mobile Number or Account Number in the left drop-down list.</li>
+                              <li>Enter the Mobile Number or BAN, then click Search. </li>
+                              <li>Click the valid account from the Results list.</li>
+                              <li>Select the Authorized user listed in the Verify caller and information section of the Verification screen. </li>
+                              <li>Enter the PIN/Passcode in the Verification method section of the Verification screen</li>
+                              <li>Click Verify to enter the account.</li>
+                            </ul>
+                          </div><!--CANVAS BODY-->
+                        </div><!--CANVAS-->
                       </div>
+                    </div><!--COLLAPSE ONE-->
+                  </div>
+                
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Manage Profile</button>
+                    </h2>
 
-                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight">Edit E911 Address</button>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="accordion-body">
 
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Edit E911 Address</h5>
-                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">Edit Billing Address</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Edit Billing Address</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
                           
-                        <div class="offcanvas-body">
-                          <p class="text-danger">ADRESS JUST FOR EXAMPLE</p>
-                          <ul>
-                            <li>From the Account tab, select Manage Profile.</li>
-                            <li>Select the line tile under Account line summary.</li>
-                            <li>In the Contact information tile, click Edit E911/PPU address.</li>
-                            <li>In the E911 address section, fill in the following address.</li>
-                            <li>Address 1: 738 Lincoln Rd.
-                            <ol>
-                              <p class="text-danger fs-6">NOTE: The period after "Rd" must be included to avoid errors</p>
-                              <li>City: Miami Beach </li>
-                              <li>State: FL </li>
-                              <li>ZIP Code: 33139</li>
-                              <li>Click Validate</li>
-                            </ol>
-                            </li>
-                            <li>Review the information on the We have corrected the E911 address modal, then click Continue. </li>
-                            <li>Review the information on the Additional address options modal, then click Continue</li>
-                            <li>Click Save changes. </li>
-                          </ul>
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile. </li>
+                                <li>Select the Account tile under Account line summary.</li>
+                                <li>In the Billing address tile, select Edit Billing Address.</li>
+                                <li>In the One-time PIN verification modal, choose the 8064 number under Select or confirm MSISDN.</li>
+                                <li>Under Send One-time PIN via: select Text, then click Send.</li>
+                                <li>Enter the One-time PIN field, then click Verify.</li>
+                                <li>Under Billing address, select the button for United States, then fill in the following spaces:
+                                  <ol>
+                                    <li>Address</li>
+                                    <li>City</li>
+                                    <li>State</li>
+                                    <li>Zip Code</li>
+                                  </ol>
+                                </li>
+                                <li>Click Validate</li>
+                                <li>Leave the checkboxes for E911 address and PPU (primary place of use) address un-checked. </li>
+                                <li>Click Continue.</li>
+                                <li>Click Save changes</li>
+                              </ul>
+                            </div>
                         </div>
-                      </div>
 
-                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Contact Number</button>
+                         <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight">Edit E911 Address</button>
 
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Edit Contact Number</h5>
-                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Edit E911 Address</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
                           
-                        <div class="offcanvas-body">
-                          <ul>
-                            <li>From the Account tab, select Manage Profile</li>
-                            <li>Select the line tile under Account line summary. </li>
-                            <li>In the Contact information tile, click the Edit caller ID name link</li>
-                            <p class="text-danger">Name's just for example</p>
-                            <li>
-                              Replace the existing name under Caller ID name with the following name
-                              <ol>
-                                <li>First name: Khalida</li>
-                                <li>Last name: Saleh</li>
-                              </ol>
-                            </li>
-                            <li>Click Save changes.</li>
-                          </ul>
-                        </div>
-                      </div>
+                            <div class="offcanvas-body">
+                              <p class="text-danger">ADRESS JUST FOR EXAMPLE</p>
+                                <ul>
+                                  <li>From the Account tab, select Manage Profile.</li>
+                                  <li>Select the line tile under Account line summary.</li>
+                                  <li>In the Contact information tile, click Edit E911/PPU address.</li>
+                                  <li>In the E911 address section, fill in the following address.</li>
+                                  <li>Address 1: 738 Lincoln Rd.
+                                    <ol>
+                                      <p class="text-danger fs-6">NOTE: The period after "Rd" must be included to avoid errors</p>
+                                      <li>City: Miami Beach </li>
+                                      <li>State: FL </li>
+                                      <li>ZIP Code: 33139</li>
+                                      <li>Click Validate</li>
+                                    </ol>
+                                  </li>
+                                  <li>Review the information on the We have corrected the E911 address modal, then click Continue. </li>
+                                  <li>Review the information on the Additional address options modal, then click Continue</li>
+                                  <li>Click Save changes. </li>
+                                </ul>
+                            </div>
+                          </div>
 
-                      <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Caller ID Name</button>
+                          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Contact Number</button>
 
-                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 id="offcanvasRightLabel">Edit Caller ID Name</h5>
-                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Edit Contact Number</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
                           
-                        <div class="offcanvas-body">
-                          <ul>
-                            <li>From the Account tab, select Manage Profile. </li>
-                            <li>Select the Account tile under Account line summary. </li>
-                            <li>In the Contact information tile, click the Edit contact information link. </li>
-                            <li>
-                              In the Billing name section, fill in the following contact numbers: 
-                              <ol>
-                                <li>Primary contact number: (718) 409-0312 </li>
-                                <li>Secondary contact number: (347) 271-5404 </li>
-                              </ol>
-                            </li>
-                            <li>Click Save changes</li>
-                          </ul>
-                        </div>
-                      </div>
+                            <div class="offcanvas-body">
+                              <ul>
+                                <li>From the Account tab, select Manage Profile</li>
+                                <li>Select the line tile under Account line summary. </li>
+                                <li>In the Contact information tile, click the Edit caller ID name link</li>
+                                <p class="text-danger">Name's just for example</p>
+                                <li>
+                                  Replace the existing name under Caller ID name with the following name
+                                  <ol>
+                                    <li>First name: Khalida</li>
+                                    <li>Last name: Saleh</li>
+                                  </ol>
+                                </li>
+                                <li>Click Save changes.</li>
+                              </ul>
+                            </div>
+                          </div>
+
+                           <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight">Edit Caller ID Name</button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 id="offcanvasRightLabel">Edit Caller ID Name</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                          
+                            <div class="offcanvas-body">
+                                <ul>
+                                  <li>From the Account tab, select Manage Profile. </li>
+                                  <li>Select the Account tile under Account line summary. </li>
+                                  <li>In the Contact information tile, click the Edit contact information link. </li>
+                                  <li>
+                                    In the Billing name section, fill in the following contact numbers: 
+                                    <ol>
+                                      <li>Primary contact number: (718) 409-0312 </li>
+                                      <li>Secondary contact number: (347) 271-5404 </li>
+                                    </ol>
+                                  </li>
+                                  <li>Click Save changes</li>
+                                </ul>
+                            </div>
+                          </div>
 
                            <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5" aria-controls="offcanvasRight">Edit/Add Authorized User</button>
 
@@ -609,9 +645,9 @@
                           </div>
                       </div>
                     </div>
-              </div><!--ACCORDION ITEM 2-->
+                  </div><!--ACCORDION ITEM 2-->
                   
-              <div class="accordion-item">
+                  <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Rate Plan Change
@@ -840,9 +876,9 @@
                         </div>
                       </div>
                     </div>
-              </div><!--ACCORDION ITEM THREE-->
+                  </div><!--ACCORDION ITEM THREE-->
 
-              <div class="accordion-item">
+                  <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFour">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Add or Remove Features
@@ -1027,9 +1063,9 @@
                         </div>
                       </div>
                     </div>
-              </div><!--ACCORDION ITEM FOUR-->
+                  </div><!--ACCORDION ITEM FOUR-->
 
-              <div class="accordion-item">
+                  <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Device Dashboard
                       </button>
@@ -1086,13 +1122,10 @@
                         </div>
                       </div><!--ACCORDION BODY-->
                     </div>
-              </div><!--ACCORDION ITEM FIVE-->
-          </div><!--EDNING SECTION 1-->
-          
-          <div id="section-two" class="tab-pane fade bg-white text-dark">
-              
-          </div><!--SECTION TWO-->
-        </div> 
+                  </div><!--ACCORDION ITEM FIVE-->
+                </div>
+              </div>
+        </div><!--SECTION TWO-->
     </div><!--CONTAINER-->
   </main>
   <!--================Blog Area =================-->
